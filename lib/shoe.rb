@@ -7,4 +7,25 @@ class Shoe
   end
   
   def properties
+    shoe.brand = "Nike"
+  end
+  
+  def size
+    shoe.size = 9.5
+  end
+  
+  def color
+    shoe.color = "red"
+  end
+  
+  def material
+    shoe.material = "suede"
+  end
+  
+  def condition
+    shoe.condition = "new"
+  end
+  
+  def cobbler
+    shoe.cobbler
     
